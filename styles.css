@@ -1,0 +1,56 @@
+*, body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #1C1C1C;
+    color: #F9FAFB;
+
+}
+
+.slogan,.gen-btn{
+    margin-bottom: 30px;
+}
+
+
+
+.content{
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content-box{
+    background-color:#1F2937;
+    width: 550px;
+    height: 550px;
+    padding: 115px 52px;
+}
+
+.hr-solid-line{
+    border: 1px solid #2F3E53;
+}
+.light-color-text{
+    color: #4ADF86;
+}
+
+.gen-btn{
+    background-color: #10B981;
+    color: #F9FAFB;
+    border: 0px none;
+    border-radius: 5px;
+    padding: 9px 15px;
+    width: 150px;
+    
+}
+
+.pw-el{
+    background-color:#273549;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 200px;
+    height: 40px;
+}
