@@ -12,10 +12,12 @@
     <div class="content-box">
         <h1>Generate a <span class="light-color-text"><br>random password</span></h1>
         <p class="slogan">Never use an insecure password again.</p>
-        <button class="gen-btn" onclick="pwGen()">Generate Password</button>
+        <button class="gen-btn" onclick="pwRequest1(); pwRequest2()">Generate Password</button>
         <hr class="hr-solid-line">
-
-        <p class="pw-el" id="password-1"></p><p class="pw-el" id="password-2"></p>
+<div class="password-box">
+    <p class="pw-el" id="password-1"></p><p class="pw-el" id="password-2"></p>
+</div>
+        
     </div>
 </div>
     <script src="/index.js"></script>

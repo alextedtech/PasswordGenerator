@@ -46,11 +46,21 @@ body{
     
 }
 
+.password-box{
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:auto;
+    text-align: center;
+}
+
 .pw-el{
     background-color:#273549;
     display: inline-block;
-    margin-top: 50px;
-    margin-left: 20px;
-    width: 200px;
-    height: 40px;
+    padding: 20px 20px;
+    height: 50px;
+    
 }
